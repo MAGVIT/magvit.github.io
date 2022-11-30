@@ -1,0 +1,63 @@
+---
+layout: academic
+name: bairdec
+teaser: '<table><tr>
+    <td style="width: 45%; text-align: center;"><img src="/img/bair_dec/bair_dec_cond_1.png" style="width: 95%; margin-right: 5%" alt="img"></td>
+    <td class="arrow"><i class="fa-solid fa-arrow-right"></i></td>
+    <td style="width: 45%"><img src="/img/bair_dec/bair_dec_gvt_1.gif" style="width: 95%; margin-left: 5%" alt="img"></td>
+    </tr></table>'
+alt: image-alt
+title: Comparing Decoding Method on BAIR
+description: We compare different decoding methods to show the quality and efficiency of MAGVIT COMMIT decoding. We train a base transformer model with the same 3D-VQ tokenizer for each method.
+---
+
+<table class="center table80">
+    <tr>
+        <th style="text-align: center; width: 15%"></th>
+        <th style="text-align: center; width: 20%"></th>
+        <th style="text-align: center; width: 1%"></th>
+        <th style="text-align: center; width: 20%"></th>
+        <th style="text-align: center; width: 1%"></th>
+        <th style="text-align: center; width: 20%"></th>
+    </tr>
+    <tr>
+        <td>Condition<br>frames</td>
+        <td><img src="/img/bair_dec/bair_dec_cond_1.png" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_cond_2.png" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_cond_3.png" style="width: 100%" alt="img" /></td>
+    </tr>
+    <tr>
+        <td>Real<br>videos</td>
+        <td><img src="/img/bair_dec/bair_dec_real_1.gif" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_real_2.gif" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_real_3.gif" style="width: 100%" alt="img" /></td>
+    </tr>
+    <tr>
+        <td>MAGVIT<br>COMMIT decoding<br>12 steps<br>(ours)</td>
+        <td><img src="/img/bair_dec/bair_dec_gvt_1.gif" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_gvt_2.gif" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_gvt_3.gif" style="width: 100%" alt="img" /></td>
+    </tr>
+    <tr>
+        <td>Autoregressive<br>decoding<br>1024 steps</td>
+        <td><img src="/img/bair_dec/bair_dec_ar_1.gif" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_ar_2.gif" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_ar_3.gif" style="width: 100%" alt="img" /></td>
+    </tr>
+    <tr>
+        <td>MaskGIT<br>(Chang et al. 2022)<br>MTM decoding<br>12 steps</td>
+        <td><img src="/img/bair_dec/bair_dec_git_1.gif" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_git_2.gif" style="width: 100%" alt="img" /></td>
+        <td></td>
+        <td><img src="/img/bair_dec/bair_dec_git_3.gif" style="width: 100%" alt="img" /></td>
+    </tr>
+</table>

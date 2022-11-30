@@ -1,0 +1,38 @@
+<!-- Portfolio Grid Section -->
+<section id="application">
+  <div class="container portfolio-flex-grid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <!-- <h2>Portfolio</h2> -->
+        <hr class="star-primary">
+        <h2>Inspirational Applications</h2>
+        <p>(Click each to expand)</p>
+      </div>
+    </div>
+    <div class="portfolio-flex-row">
+      {% for post in site.applications %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#app-{{ post.name }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <h3 style="text-align: center">{{ post.title }}</h3>
+          {{ post.teaser }}
+          <!-- <video class="img-responsive" loop="" autoplay="" muted="" playsinline="">
+            <source src="{{ post.teaser }}" type="video/mp4">
+          </video> -->
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <hr class="star-primary">
+        <h3>Stay tuned for more examples ...</h3>
+        <h3><a href="/pages/benchmarks">Benchmark Results</a></h3>
+      </div>
+  </div>
+  </div>
+</section>
