@@ -545,6 +545,10 @@ footer .footer-below {
     width: 100%;
 }
 
+.table50 {
+    width: 100%;
+}
+
 @media (min-width: 640px) {
     .table80 {
         width: 80%;
@@ -552,5 +556,9 @@ footer .footer-below {
 
     .table65 {
         width: 65%;
+    }
+
+    .table50 {
+        width: 50%;
     }
 }
