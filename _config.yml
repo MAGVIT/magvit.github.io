@@ -2,6 +2,11 @@
 title: "MAGVIT"
 email: 
 url: https://magvit-ann.github.io
+# <!--strip anonymous begin-->
+url: https://magvit.cs.cmu.edu
+paper_url: /paper.pdf
+code_url: "https://github.com/MAGVIT/magvit"
+# <!--strip anonymous end-->
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 full_name: "Masked Generative Video Transformer"
