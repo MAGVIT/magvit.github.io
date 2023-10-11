@@ -55,13 +55,14 @@
   </div>
 
   <div class="header_dark_gray">
-    <h1>Tokenization Quality</h1>
+    <h1>Image Tokenization</h1>
   </div>
 
   
   <div id="slideshow1" class="slideshow-container">
     <div class="mySlides">
       <img src="./images/reconstruction.png" class="center">
+      <div class="imagetext">Comparison with prior works.</div>
     </div>
     <a class="prev" onclick="plusSlides(-1, slideshow1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a>
@@ -82,12 +83,33 @@
   <div id="slideshow2" class="slideshow-container">
     <div class="mySlides">
       <img src="./images/ImageNet512.png" class="center">
+      <div class="imagetext">Comparison with prior works.</div>
+    </div>
+    <div class="mySlides">
+      <div style="text-align: center;">
+        <img src="./images/validation_full_generation_step1351080_0090_000030232.png" class="quarter">
+        <img src="./images/validation_full_generation_step1351080_0090_000023243.png" class="quarter">
+        <img src="./images/validation_full_generation_step1351080_0090_000021309.png" class="quarter">
+        <img src="./images/validation_full_generation_step1351080_0090_000019650.png" class="quarter">
+      </div>
+      <div class="imagetext">"lorikeet"</div>
+    </div>
+    <div class="mySlides">
+      <div style="text-align: center;">
+        <img src="./images/validation_full_generation_step1351080_0980_000016267.png" class="quarter">
+        <img src="./images/validation_full_generation_step1351080_0980_000024420.png" class="quarter">
+        <img src="./images/validation_full_generation_step1351080_0980_000030607.png" class="quarter">
+        <img src="./images/validation_full_generation_step1351080_0980_000036278.png" class="quarter">
+      </div>
+      <div class="imagetext">"volcano"</div>
     </div>
     <a class="prev" onclick="plusSlides(-1, slideshow2)">&#10094;</a>
     <a class="next" onclick="plusSlides(1, slideshow2)">&#10095;</a>
 
     <div style="text-align:center">
       <span class="dot" onclick="currentSlide(1, slideshow2)"></span>
+      <span class="dot" onclick="currentSlide(2, slideshow2)"></span>
+      <span class="dot" onclick="currentSlide(3, slideshow2)"></span>
     </div>
   </div>
   <br>
