@@ -76,30 +76,34 @@
 
   <div class="header_dark_gray">
     <h1>Image Generation<br>
-    <a href="https://paperswithcode.com/sota/video-prediction-on-kinetics-600-12-frames?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/image-generation-on-imagenet-512x512"></a>
-      <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-256x256?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/image-generation-on-imagenet-256x256"></a></h1>
+    <!-- <a href="https://paperswithcode.com/sota/video-prediction-on-kinetics-600-12-frames?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/image-generation-on-imagenet-512x512"></a>
+      <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-256x256?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/image-generation-on-imagenet-256x256"></a></h1> -->
   </div>
 
   <div id="slideshow2" class="slideshow-container">
     <div class="mySlides">
       <img src="./images/ImageNet512.png" class="center">
-      <div class="imagetext">Comparison with prior works.</div>
+      <div class="imagetext">Comparison with prior works on ImageNet 512x512.</div>
+    </div>
+    <div class="mySlides">
+      <img src="./images/curve.png" class="center" style="width: 50%">
+      <div class="imagetext">Reconstruction and generation quality curves regarding the vocabulary size on ImageNet 128x128.</div>
     </div>
     <div class="mySlides">
       <div style="text-align: center;">
-        <img src="./images/validation_full_generation_step1351080_0090_000030232.png" class="quarter">
-        <img src="./images/validation_full_generation_step1351080_0090_000023243.png" class="quarter">
-        <img src="./images/validation_full_generation_step1351080_0090_000021309.png" class="quarter">
-        <img src="./images/validation_full_generation_step1351080_0090_000019650.png" class="quarter">
+        <img src="./images/validation_full_generation_step1351080_0090_000030232.png" class="row3">
+        <img src="./images/validation_full_generation_step1351080_0090_000023243.png" class="row3">
+        <img src="./images/validation_full_generation_step1351080_0090_000021309.png" class="row3">
+        <!-- <img src="./images/validation_full_generation_step1351080_0090_000019650.png" class="row3"> -->
       </div>
       <div class="imagetext">"lorikeet"</div>
     </div>
     <div class="mySlides">
       <div style="text-align: center;">
-        <img src="./images/validation_full_generation_step1351080_0980_000016267.png" class="quarter">
-        <img src="./images/validation_full_generation_step1351080_0980_000024420.png" class="quarter">
-        <img src="./images/validation_full_generation_step1351080_0980_000030607.png" class="quarter">
-        <img src="./images/validation_full_generation_step1351080_0980_000036278.png" class="quarter">
+        <img src="./images/validation_full_generation_step1351080_0980_000024420.png" class="row3">
+        <img src="./images/validation_full_generation_step1351080_0980_000016267.png" class="row3">
+        <!-- <img src="./images/validation_full_generation_step1351080_0980_000030607.png" class="row3"> -->
+        <img src="./images/validation_full_generation_step1351080_0980_000036278.png" class="row3">
       </div>
       <div class="imagetext">"volcano"</div>
     </div>
@@ -110,24 +114,41 @@
       <span class="dot" onclick="currentSlide(1, slideshow2)"></span>
       <span class="dot" onclick="currentSlide(2, slideshow2)"></span>
       <span class="dot" onclick="currentSlide(3, slideshow2)"></span>
+      <span class="dot" onclick="currentSlide(4, slideshow2)"></span>
     </div>
   </div>
   <br>
   <br>
 
   <div class="header_dark_gray">
-    <h1>Video Compression (updating)</h1>
+    <h1>Video Compression</h1>
   </div>
 
   <div id="slideshow3" class="slideshow-container">
     <div class="mySlides">
-      <img src="./images/elo.png" class="center" style="width: 50%;">
+      <center>
+      <video class="center" style="width: 95%" controls="" loop="" autoplay="" muted="" playsinline="">
+        <source src="./images/picked_resized_3in1_text.mp4" type="video/mp4">
+        <img src="./images/picked_resized_3in1_text.gif" class="img-responsive img-centered" alt="img">
+      </video>
+      </center>
+      <div class="imagetext">Comparison with prior best model and standard video codec.</div>
+    </div>
+    <div class="mySlides">
+      <img src="./images/elo.png" class="center" style="width: 40%;">
+      <div class="imagetext">Human rater study results.</div>
+    </div>
+    <div class="mySlides">
+      <img src="./images/picked_resized_3in1_text.gif" class="center" style="width: 95%">
+      <div class="imagetext">Comparison with prior best model and standard video codec.</div>
     </div>
     <a class="prev" onclick="plusSlides(-1, slideshow3)">&#10094;</a>
     <a class="next" onclick="plusSlides(1, slideshow3)">&#10095;</a>
 
     <div style="text-align:center">
       <span class="dot" onclick="currentSlide(1, slideshow3)"></span>
+      <span class="dot" onclick="currentSlide(2, slideshow3)"></span>
+      <span class="dot" onclick="currentSlide(3, slideshow3)"></span>
     </div>
   </div>
   <br>
@@ -135,8 +156,8 @@
 
   <div class="header_dark_gray">
     <h1>Video Generation (updating)<br>
-    <a href="https://paperswithcode.com/sota/video-prediction-on-kinetics-600-12-frames?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-prediction-on-kinetics-600-12-frames"></a>
-      <a href="https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101"></a></h1>
+    <!-- <a href="https://paperswithcode.com/sota/video-prediction-on-kinetics-600-12-frames?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-prediction-on-kinetics-600-12-frames"></a>
+      <a href="https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101"></a></h1> -->
   </div>
 
   <!-- <div id="slideshow4" class="slideshow-container">
