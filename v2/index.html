@@ -55,20 +55,53 @@
   </div>
 
   <div class="header_dark_gray">
-    <h1>Image Tokenization</h1>
+    <h1>Video Generation</h1>
   </div>
 
-  
-  <div id="slideshow1" class="slideshow-container">
+  <div id="slideshow4" class="slideshow-container">
     <div class="mySlides">
-      <img src="./images/reconstruction.png" class="center">
-      <div class="imagetext">Comparison with prior works.</div>
+      <img src="./images/videopoet.gif" class="center">
+      <div class="imagetext">MAGVIT-v2 tokenizer is the core technique that enables<i>VideoPoet: A large language model for zero-shot video generation</i>. <a href="https://sites.research.google/videopoet/">More</a>.</div>
     </div>
-    <a class="prev" onclick="plusSlides(-1, slideshow1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a>
+    <a class="prev" onclick="plusSlides(-1, slideshow4)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, slideshow4)">&#10095;</a>
 
     <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1, slideshow1)"></span>
+      <span class="dot" onclick="currentSlide(1, slideshow4)"></span>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="header_dark_gray">
+    <h1>Video Compression</h1>
+  </div>
+
+  <div id="slideshow3" class="slideshow-container">
+    <div class="mySlides">
+      <center>
+      <video class="center" style="width: 95%" controls="" loop="" autoplay="" muted="" playsinline="">
+        <source src="./images/picked_resized_3in1_text.mp4" type="video/mp4">
+        <img src="./images/picked_resized_3in1_text.gif" class="img-responsive img-centered" alt="img">
+      </video>
+      </center>
+      <div class="imagetext">Comparison with prior best model and standard video codec.</div>
+    </div>
+    <div class="mySlides">
+      <img src="./images/elo.png" class="center" style="width: 40%;">
+      <div class="imagetext">Human rater study results.</div>
+    </div>
+    <div class="mySlides">
+      <img src="./images/picked_resized_3in1_text.gif" class="center" style="width: 95%">
+      <div class="imagetext">Comparison with prior best model and standard video codec (GIF format for easier sharing, which takes longer to load).</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1, slideshow3)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, slideshow3)">&#10095;</a>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1, slideshow3)"></span>
+      <span class="dot" onclick="currentSlide(2, slideshow3)"></span>
+      <span class="dot" onclick="currentSlide(3, slideshow3)"></span>
     </div>
   </div>
   <br>
@@ -121,44 +154,26 @@
   <br>
 
   <div class="header_dark_gray">
-    <h1>Video Compression</h1>
+    <h1>Image Tokenization</h1>
   </div>
 
-  <div id="slideshow3" class="slideshow-container">
+  
+  <div id="slideshow1" class="slideshow-container">
     <div class="mySlides">
-      <center>
-      <video class="center" style="width: 95%" controls="" loop="" autoplay="" muted="" playsinline="">
-        <source src="./images/picked_resized_3in1_text.mp4" type="video/mp4">
-        <img src="./images/picked_resized_3in1_text.gif" class="img-responsive img-centered" alt="img">
-      </video>
-      </center>
-      <div class="imagetext">Comparison with prior best model and standard video codec.</div>
+      <img src="./images/reconstruction.png" class="center">
+      <div class="imagetext">Comparison with prior works.</div>
     </div>
-    <div class="mySlides">
-      <img src="./images/elo.png" class="center" style="width: 40%;">
-      <div class="imagetext">Human rater study results.</div>
-    </div>
-    <div class="mySlides">
-      <img src="./images/picked_resized_3in1_text.gif" class="center" style="width: 95%">
-      <div class="imagetext">Comparison with prior best model and standard video codec (GIF format for easier sharing, which takes longer to load).</div>
-    </div>
-    <a class="prev" onclick="plusSlides(-1, slideshow3)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1, slideshow3)">&#10095;</a>
+    <a class="prev" onclick="plusSlides(-1, slideshow1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a>
 
     <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1, slideshow3)"></span>
-      <span class="dot" onclick="currentSlide(2, slideshow3)"></span>
-      <span class="dot" onclick="currentSlide(3, slideshow3)"></span>
+      <span class="dot" onclick="currentSlide(1, slideshow1)"></span>
     </div>
   </div>
   <br>
   <br>
 
-  <div class="header_dark_gray">
-    <h1>Video Generation (updating)<br>
-    <!-- <a href="https://paperswithcode.com/sota/video-prediction-on-kinetics-600-12-frames?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-prediction-on-kinetics-600-12-frames"></a>
-      <a href="https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101"></a></h1> -->
-  </div>
+  
 
   <!-- <div id="slideshow4" class="slideshow-container">
   </div>
@@ -166,9 +181,9 @@
   <br> -->
 
   <!-- anon-on -->
-  <div class="header_dark_gray">
+  <!-- <div class="header_dark_gray">
     <h1>While we're still updating this new version, also check out: <a href="https://magvit.cs.cmu.edu">MAGVIT(v1)</a></h1></p>
-  </div>
+  </div> -->
   <!-- <div class="header_dark_gray">
     <h1>Acknowledgment</h1>
     <p></p>
